@@ -5,3 +5,15 @@
 .slider-height{
   height: calc(100vh - 60px);
 }
+
+.scale-box {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  transition: transform 0.1s ease-in;
+  transform: scale(0);
+}
+
+.zoom-scale-box{
+  transform: scale(1);
+}
